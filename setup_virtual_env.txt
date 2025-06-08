@@ -1,0 +1,20 @@
+Instalar versión de Python
+Entra a carpeta donde se desea crear entorno virtual
+
+Usando virtualenv:
+Ejecutar 
+virtualenv nombredeentorno --python="C:\Ruta\Exacta\a\python36\python.exe"
+
+
+Usando venv (integrado en Python):
+Ejecutar
+& "C:\Ruta\a\python36\python.exe" -m venv nombredeentorno
+
+
+
+Activar 
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+.\nombredeentorno\Scripts\Activate.ps1
+
+pip install jupyter ipykernel
+python -m ipykernel install --user --name nombredeentorno --display-name "nombredelkernel"

@@ -1,0 +1,21 @@
+# Ignorar entorno virtual
+venv/
+ds_scratch_env/
+ENV/
+.venv/
+.python-version
+
+# Ignorar archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignorar archivos de Jupyter notebooks temporales
+.ipynb_checkpoints/
+
+# Ignorar configuración de VS Code
+.vscode/
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
